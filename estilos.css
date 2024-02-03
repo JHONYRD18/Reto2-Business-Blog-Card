@@ -1,10 +1,18 @@
 :root {
-    --primario: #F2F5F9;
-    --segundo: #FFFFFF;
-    --Tercero: #111729;
-    --Cuarto: #677489;
+    /* Fonts */
+    --principal: 'Lato', sans-serif;
+    --titulo: 'Poppins', sans-serif;
 
-    --fuente_principal:'Lato', sans-serif;
+    /* Font sizes */
+    --body: 1rem;
+    --Small-text: 0.625rem;
+    --title: 1.5rem;
+
+    /* Colors */
+    --primero: #111729;
+    --segundo: #677489;
+    --tercero: #f2f5f9;
+    --cuarto: #fff;
 }
 
 * {
@@ -12,6 +20,7 @@
     margin: 0;
     box-sizing: border-box;
     list-style: none;
+    font-family: var(--principal);
 }
 
 img{
@@ -19,18 +28,17 @@ img{
 }
 
 body {
-    background-color: var(--primario);
-    font-family: var(--fuente_principal);
+    background-color: var(--tercero);
     display: flex;
     justify-content: center;
     place-items: center;
-    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
 }
 
 .contenedor {
-    background-color: var(--segundo);
-    width: 540px;
-    height: 640px;
+    background-color: var(--cuarto);
+    width: 420px;
     border-radius: 1rem;
 }
 
