@@ -30,7 +30,7 @@ body {
 
 .contenedor {
     background-color: var(--segundo);
-    width: 336px;
+    width: 440px;
     border-radius: 1rem;
 }
 
@@ -47,9 +47,9 @@ body {
 
 .Descripcion {
     margin-top: 1rem;
-    padding: 0 1rem;
+    padding: 0 2rem;
     border-bottom: 1px solid var(--primario);    
-    font-family: 'Poppins', sans-serif;
+    
 }
 
 .Descripcion h2 {
@@ -57,16 +57,20 @@ body {
     font-size: 1.5rem;
     line-height: 1.4;
     margin-bottom: 1rem;
+    font-weight: 550;
+    font-family: 'Poppins', sans-serif;
 }
 
 .Descripcion p {
     color: var(--Cuarto);
     font-size: 1rem;
+    line-height: 1.4;
     margin-bottom: 1.5rem;
+    font-weight: 300;
 }
 
 .detalles{
-    padding: 0 1rem;
+    padding: 0 2rem;
     margin: 1.5rem 0;
     display: flex;
     justify-content: flex-start;
@@ -80,15 +84,16 @@ body {
 }
 
 .detalles ul {
-    padding: 0 1rem;
+    padding: 0 1.2rem;
 }
 
 .detalles ul .autor {
     font-size: 1rem;
+    font-weight: 100;
 }
 
 .detalles ul .leer {
     font-size: 0.8rem;
     color: var(--Cuarto);
-    font-weight: 300;
+    font-weight: 200;
 }
