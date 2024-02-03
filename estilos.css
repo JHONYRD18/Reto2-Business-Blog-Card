@@ -40,6 +40,7 @@ body {
     background-color: var(--cuarto);
     width: 420px;
     border-radius: 1rem;
+    margin-top: 35px;
 }
 
 .contenedor .img__cafe{
